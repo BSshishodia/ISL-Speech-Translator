@@ -39,7 +39,7 @@ flowchart TD
     H[🤟 Final Output]
 
     A --> B --> C --> D --> E --> F --> G --> H
-
+```
 ---
 
 ## 🧠 Core Components
@@ -94,7 +94,7 @@ flowchart TD
 ---
 
 ## 📁 Project Structure
-ISL-Speech-Translator/
+```ISL-Speech-Translator/
 │
 ├── app.py
 ├── speech_to_text.py
@@ -110,7 +110,7 @@ ISL-Speech-Translator/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-
+```
 
 ---
 
