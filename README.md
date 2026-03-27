@@ -27,22 +27,21 @@ Most existing solutions:
 ```markdown
 ## ⚙️ System Pipeline
 
-flowchart TD
-🎤 Speech Input
-↓
-🧾 Speech Recognition (Whisper)
-↓
-🧠 NLP Processing (spaCy)
-↓
-🔄 ISL Grammar Conversion
-↓
-🌐 Hindi → English Mapping
-↓
-🔍 Sign Video Matching
-↓
-🎬 Video Merging (MoviePy)
-↓
-🤟 Final ISL Output
+   Speech Input
+        ↓
+Speech Recognition (Whisper)
+        ↓
+NLP Processing (spaCy)
+        ↓
+ISL Grammar Conversion
+        ↓
+Hindi → English Mapping
+        ↓
+Sign Video Matching
+        ↓
+Video Merging (MoviePy)
+        ↓
+  Final ISL Output
 ```
 ---
 
