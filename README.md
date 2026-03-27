@@ -28,16 +28,21 @@ Most existing solutions:
 ## ⚙️ System Pipeline
 
 flowchart TD
-    A[🎤 Speech Input]
-    B[🧾 Speech Recognition (Whisper)]
-    C[🧠 NLP Processing]
-    D[🔄 ISL Grammar Conversion]
-    E[🌐 Hindi → English Mapping]
-    F[🔍 Sign Matching]
-    G[🎬 Video Generation]
-    H[🤟 Final Output]
-
-    A --> B --> C --> D --> E --> F --> G --> H
+🎤 Speech Input
+↓
+🧾 Speech Recognition (Whisper)
+↓
+🧠 NLP Processing (spaCy)
+↓
+🔄 ISL Grammar Conversion
+↓
+🌐 Hindi → English Mapping
+↓
+🔍 Sign Video Matching
+↓
+🎬 Video Merging (MoviePy)
+↓
+🤟 Final ISL Output
 ```
 ---
 
