@@ -27,31 +27,24 @@ Most existing solutions:
 The system follows a modular pipeline:
 
 [ Speech Input ]
-
         ↓
 
 [ Speech Recognition ]
-
         ↓
 
 [ NLP Processing ]
-        
         ↓
 
-[ ISL Conversion ]
-        
+[ ISL Conversion ]        
         ↓
 
-[ Mapping ]
-        
+[ Mapping ]        
         ↓
 
 [ Sign Matching ]
-        
         ↓
 
 [ Video Generation ]
-
         ↓
 
 [ Final Output ]
