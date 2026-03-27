@@ -21,7 +21,7 @@ def main():
     # -----------------------------
     # 1️⃣ Audio Input
     # -----------------------------
-    audio_path = r"C:\Users\Alka Singh\Desktop\ISLP\10015.wav"
+    audio_path = r"sample_audio/test.wav"
 
     if not os.path.exists(audio_path):
         print("❌ Audio file not found!")
