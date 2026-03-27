@@ -14,7 +14,7 @@ Thumbs.db
 output_sign_translation.mp4
 output/
 
-# Large dataset (DO NOT UPLOAD)
+# Large dataset
 signs/
 
 # Whisper cache
