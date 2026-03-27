@@ -9,7 +9,7 @@ def find_best_match(word, dataset_words):
         word,
         dataset_words,
         n=1,
-        cutoff=0.6
+        cutoff=0.85
     )
 
     if match:
