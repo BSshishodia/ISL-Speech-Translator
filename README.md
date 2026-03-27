@@ -25,22 +25,21 @@ Most existing solutions:
 ## ⚙️ How It Works
 
 The system follows a modular pipeline:
-
-[ Speech Input ]
-        ↓
-[ Speech Recognition ]
-        ↓
-[ NLP Processing ]
-        ↓
-[ ISL Conversion ]        
-        ↓
-[ Mapping ]        
-        ↓
-[ Sign Matching ]
-        ↓
-[ Video Generation ]
-        ↓
-[ Final Output ]
+🎤 Speech Input
+↓
+🧾 Speech Recognition (Whisper)
+↓
+🧠 NLP Processing
+↓
+🔄 ISL Conversion
+↓
+🌐 Mapping
+↓
+🔍 Sign Matching
+↓
+🎬 Video Generation
+↓
+🤟 Final Output
 
 ---
 
@@ -96,7 +95,7 @@ The system follows a modular pipeline:
 ---
 
 ## 📁 Project Structure
-ISL-Speech-Translator/
+'''ISL-Speech-Translator/
 │
 ├── app.py
 ├── speech_to_text.py
@@ -112,7 +111,7 @@ ISL-Speech-Translator/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-
+'''
 
 ---
 
