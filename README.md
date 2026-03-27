@@ -27,7 +27,6 @@ Most existing solutions:
 ```markdown
 ## ⚙️ System Pipeline
 
-```mermaid
 flowchart TD
     A[🎤 Speech Input]
     B[🧾 Speech Recognition (Whisper)]
