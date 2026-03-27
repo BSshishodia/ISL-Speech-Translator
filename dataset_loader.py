@@ -15,3 +15,6 @@ def load_dataset_words():
             words.append(name.lower())
 
     return words
+    
+if not os.path.exists(SIGN_FOLDER):
+    return []
