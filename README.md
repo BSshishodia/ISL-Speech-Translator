@@ -28,27 +28,19 @@ The system follows a modular pipeline:
 
 [ Speech Input ]
         ↓
-
 [ Speech Recognition ]
         ↓
-
 [ NLP Processing ]
         ↓
-
 [ ISL Conversion ]        
         ↓
-
 [ Mapping ]        
         ↓
-
 [ Sign Matching ]
         ↓
-
 [ Video Generation ]
         ↓
-
 [ Final Output ]
-
 
 ---
 
