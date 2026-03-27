@@ -24,22 +24,21 @@ Most existing solutions:
 
 ## ⚙️ How It Works
 
-The system follows a modular pipeline:
-🎤 Speech Input
-↓
-🧾 Speech Recognition (Whisper)
-↓
-🧠 NLP Processing
-↓
-🔄 ISL Conversion
-↓
-🌐 Mapping
-↓
-🔍 Sign Matching
-↓
-🎬 Video Generation
-↓
-🤟 Final Output
+```markdown
+## ⚙️ System Pipeline
+
+```mermaid
+flowchart TD
+    A[🎤 Speech Input]
+    B[🧾 Speech Recognition (Whisper)]
+    C[🧠 NLP Processing]
+    D[🔄 ISL Grammar Conversion]
+    E[🌐 Hindi → English Mapping]
+    F[🔍 Sign Matching]
+    G[🎬 Video Generation]
+    H[🤟 Final Output]
+
+    A --> B --> C --> D --> E --> F --> G --> H
 
 ---
 
@@ -95,7 +94,7 @@ The system follows a modular pipeline:
 ---
 
 ## 📁 Project Structure
-'''ISL-Speech-Translator/
+ISL-Speech-Translator/
 │
 ├── app.py
 ├── speech_to_text.py
@@ -111,7 +110,7 @@ The system follows a modular pipeline:
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-'''
+
 
 ---
 
