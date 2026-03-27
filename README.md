@@ -26,21 +26,35 @@ Most existing solutions:
 
 The system follows a modular pipeline:
 
-🎤 Speech Input
-↓
-🧾 Speech Recognition (Whisper)
-↓
-🧠 NLP Processing (spaCy)
-↓
-🔄 ISL Grammar Conversion
-↓
-🌐 Hindi → English Mapping
-↓
-🔍 Sign Video Matching
-↓
-🎬 Video Merging (MoviePy)
-↓
-🤟 Final ISL Output Video
+[ Speech Input ]
+
+        ↓
+
+[ Speech Recognition ]
+
+        ↓
+
+[ NLP Processing ]
+        
+        ↓
+
+[ ISL Conversion ]
+        
+        ↓
+
+[ Mapping ]
+        
+        ↓
+
+[ Sign Matching ]
+        
+        ↓
+
+[ Video Generation ]
+
+        ↓
+
+[ Final Output ]
 
 
 ---
